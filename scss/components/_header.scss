@@ -1,0 +1,69 @@
+.header {
+    position:fixed;
+    width:100%;
+    height:97px;
+    z-index:99;
+    font-size: 17px;
+    line-height: 26px;
+    border-bottom: 1px solid #FFF;
+
+    &.header__transparent {
+        background-color:transparent;
+        animation-name: scrollback;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+
+    &__transparent {
+        background-color:transparent;
+    }
+
+    &__color {
+        background-color:#2F3135;
+        animation-name: scroll;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+
+    &__wrapper {
+        padding:28px 0 28px;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        position:relative;
+    }
+    @media screen and (max-width: 767px) {
+        .header__wrapper {
+          width: 90%;
+        }
+    }
+
+    &__nav {
+        display:flex;
+        align-items:space-between;
+        justify-content:space-between;
+        gap:4vw;
+        & a {
+            text-decoration: none;
+            color:#FFF;
+        }
+    }
+
+    &__right {
+        display:flex;
+        align-items:center;
+        gap:1.2vw;
+    }
+
+    &__mail {
+        color:#FFF;
+    }
+
+    &__fix {
+        height:97px;
+    }
+
+    &__transparent {
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,34 @@
+.goods {
+    background-color: #2F3135;
+    padding-bottom:142px;
+    border-bottom: 1px solid #FFF;
+
+    &__h2 {
+        font-size: 80px;
+        line-height: 84px;
+        padding: 111px 0 63px;
+    }
+    &__photos {
+        display:flex;
+        gap:24px;
+        padding-bottom:145px;
+    }
+    &__bottom {
+        display:flex;
+        gap:109px;
+        align-items:center;
+    }
+    &__bottomleft {
+        justify-content:flex-start;
+    }
+    &__h3 {
+        font-size: 80px;
+        line-height: 84px;
+    }
+    &__p {
+        font-size: 23px;
+        line-height: 35px;
+        margin-left:5px;
+        padding:50px 0 56px;
+    }
+}

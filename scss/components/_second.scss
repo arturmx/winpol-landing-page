@@ -1,0 +1,35 @@
+.second {
+    background-color: #2F3135;
+    border-bottom: 1px solid #FFF;
+
+    &__wrapper {
+        padding:55px 0 96px;
+    }
+
+    &__photo {
+        align-self:flex-start;
+    }
+
+    &__h1 {
+        font-size: 72px;
+        line-height: 92px;
+        text-align: center;
+    }
+
+    &__columns {
+        display:flex;
+        gap:110px;
+        padding-top:65px;
+    }
+
+    &__h3 {
+        font-size: 80px;
+        line-height: 84px;
+        padding:94px 0 56px;
+    }
+
+    &__p {
+        font-size: 23px;
+        line-height: 35px;
+    }
+}
